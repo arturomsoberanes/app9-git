@@ -70,7 +70,7 @@ input#volume{
 button#play{
 	width: 70px;
 	height: 70px;
-	background: url(../images/paly.png) no-repeat; float: left;
+	background: url(../images/play.png) no-repeat; float: left;
 }
 
 button#pause{

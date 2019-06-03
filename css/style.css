@@ -100,3 +100,35 @@ button#stop{
 	position: relative;
 	width: 100%
 }
+
+#playlist li.active{
+	font-weight: bold;
+	padding:3px;
+	background:#936;
+}
+
+#progressBar{
+	width:80%;
+	margin-left:2%;
+	margin-bottom:20px;
+	margin-top:9px;
+	height:10px;
+	background:url(../images/progress_bg.png)no-repeat;
+	float:left;
+}
+
+#progress{
+	background:url(../images/progress.png)no-repeat;
+	height:10px;
+	display:inline-block;
+}
+
+#duration{
+	position:absolute;
+	top:0;
+	right:10px;
+	padding:4px 8px;
+	background:#9FF;
+	border-radius:5px;
+}
+	
